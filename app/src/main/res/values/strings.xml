@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pico Y Placa Pasto</string>
+    <string name="miPlaca">Mi Placa</string>
+    <string name="proPico">Proximo Dia De Pico Y Placa</string>
+    <string name="ajustesP">Ajustes Placa</string>
+    <string name="acercaDe">Acerca De</string>
+    <string name="desarro">Desarrollado Por:</string>
+    <string name="univer">Universidad Mariana Pasto</string>
+    <string name="elegirP">Elegir Placa</string>
+    <string name="regresar">Regresar Al Menu</string>
+    <string name="diaP">Proximo Dia Pico y Placa</string>
+</resources>

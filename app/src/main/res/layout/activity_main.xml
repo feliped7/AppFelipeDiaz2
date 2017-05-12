@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ingenieria.appfelipe.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/fondo"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/AZULC"
+        android:layout_weight="0.03"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text=" #-# "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="22dp"
+        android:layout_below="@+id/tv_placa"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="@string/miPlaca"
+        android:textColor="@color/AZULC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tv_proximo_dia"
+        android:layout_alignStart="@+id/tv_proximo_dia" />
+
+    <TextView
+        android:id="@+id/tv_placa"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/progress_horizontal"
+        android:text="  "
+        android:textColor="@color/AZULC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="@string/proPico"
+        android:textColor="@color/AZULC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_proximo_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="@color/BLANCO"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="14dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:onClick="configuracion"
+        android:textColor="@color/AZULC"
+
+        app:srcCompat="@drawable/conf"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="406dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_alignEnd="@+id/tv_placa" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ajustesP"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/AZULC"
+        android:layout_weight="0.03"
+        android:layout_marginRight="153dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="51dp"
+        android:layout_below="@+id/button"
+        android:layout_toStartOf="@+id/tv1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="22dp"
+        android:onClick="acercade"
+        app:srcCompat="@drawable/info"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acercaDe"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/BLANCO"
+        android:layout_weight="0.03"
+        android:layout_marginTop="11dp"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_alignStart="@+id/button" />
+
+
+</RelativeLayout>

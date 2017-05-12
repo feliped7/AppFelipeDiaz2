@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peak And Plate Pasto</string>
+    <string name="miPlaca">My badge</string>
+    <string name="proPico">Next Day Of Peak And Plate</string>
+    <string name="ajustesP">Card Settings</string>
+    <string name="acercaDe">About</string>
+    <string name="desarro">Developed by:</string>
+    <string name="univer"> university Mariana Pasto</string>
+    <string name="elegirP">Choose Plate</string>
+    <string name="regresar">Back To Menu</string>
+    <string name="diaP">Next Day Of Peak And Plate</string>
+</resources>
